@@ -3,7 +3,7 @@
     For example: input   [stars, mary, rats, tars, army, banana] and output: [ [rats, tars], [army, mary], [stars], [banana] ].
 =end
 
-= ["stars", "mary", "tars", "rats", "army", "banana"]
+input = ["stars", "mary", "tars", "rats", "army", "banana"]
 result = [] # create a container 
 
 input.each do |word|
